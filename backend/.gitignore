@@ -1,0 +1,28 @@
+# Ignorar entorno virtual
+venv/
+env/
+.venv/
+
+# Ignorar archivos de configuracion con secretos
+.env
+
+# Ignorar base de datos
+data/
+*.db
+*.sqlite
+
+# Ignorar cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
